@@ -1,0 +1,6 @@
+Help me create a web application for creating and joining events 
+(sports or any social activities or just hanging out, the creator (any logged user can create events)
+sets the name of the activity, the place, the time, and optionaly max people and requirements. They can also cancle and edit those events).
+Other users can view those events and can click join, that updates the current amount of users and is visible in the event details to all users.
+The activities can be public (visible to all users) or private (visible only to friends).
+Public events can be set to be visible to all but user can only ask to join and need approval of the creator.
