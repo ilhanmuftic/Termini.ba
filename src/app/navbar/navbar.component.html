@@ -1,0 +1,10 @@
+<div class="navbar">
+    <a routerLink="/">Home</a>
+    <a routerLink="/profile">Profile</a>
+    <!--
+    <button *ngIf="!loggedIn" (click)="openLoginModal()">Login</button>
+    <button *ngIf="loggedIn" (click)="logout()">Logout</button>
+    -->
+    <button *ngIf="!loggedIn">Login</button>
+    <button *ngIf="loggedIn">Logout</button>
+</div>

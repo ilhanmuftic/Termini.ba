@@ -1,0 +1,38 @@
+<!-- create-event-modal.component.html -->
+<div class="create-event-modal-container" [ngClass]="{ 'show': createEventModalOpen }"> 
+    <form class="create-event-form">
+      <label>
+        Event Name:
+        <input type="text" placeholder="Event Name">
+      </label>
+      <label>
+        Event Description:
+        <textarea placeholder="Event Description"></textarea>
+      </label>
+      <label>
+        Event Date:
+        <input type="date">
+      </label>
+      <label>
+        Event Time:
+        <input type="time">
+      </label>
+      <label>
+        Event Location:
+        <input type="text" placeholder="Event Location">
+      </label>
+      <label>
+        Event Max People:
+        <input type="number" placeholder="Event Max People">
+      </label>
+      <label>
+        Event Requirements:
+        <input type="text" placeholder="Event Requirements">
+      </label>
+      <div class="create-event-form-actions">
+        <button class="create-event-submit-button">Create Event</button>
+        <button class="create-event-cancel-button">Cancel</button>
+      </div>
+    </form>
+  </div>
+  

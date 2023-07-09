@@ -1,0 +1,30 @@
+Front-end:
+
+The application has a login and registration system for users to create an account and log in to the application.
+The user can view a list of all events on the homepage and filter them by public or private events.
+The user can also view a detailed page of each event, where they can see the event's name, place, time, and number of people signed up.
+The user can join an event by clicking a button on the event's detailed page.
+The user can also create an event by clicking on the "Create Event" button on the homepage.
+The user can edit or cancel their events.
+The user has a profile page, where they can view their own profile and see their friends.
+
+Back-end:
+
+The back-end is built with NestJS and communicates with the MySQL database to handle user authentication, events, and user data.
+The back-end has endpoints for handling user login and registration, as well as creating, editing, and canceling events.
+The back-end also has endpoints for handling joining and leaving events, as well as adding and removing friends.
+
+Database:
+
+The database is built with MySQL and stores the events and user data.
+The database has tables for users, events, and friends.
+The user table contains columns for the user's email, password, name, and profile picture.
+The events table contains columns for the event's name, place, time, max people, and requirements.
+The friends table contains columns for the user's id and their friend's id.
+
+Project Structure:
+
+The front-end and back-end are in separate directories, with the front-end built with Angular and the back-end built with NestJS.
+The front-end has separate directories for components, services, and modules.
+The back-end has separate directories for controllers, services, and entities.
+The database is connected and queried using TypeORM, with the configurations and entities in a separate directory.
